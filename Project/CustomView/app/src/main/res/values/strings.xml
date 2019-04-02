@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="btn1">自定义视图滑动的小球</string>
+    <string name="btn2">btn2</string>
+    <string name="btn3">btn3</string>
+    <string name="btn4">btn4</string>
+    <string name="btn5">btn5</string>
+    <string name="自定义视图滑动的小球">自定义视图滑动的小球</string>
+    <string name="title_activity_custom">CustomActivity</string>
+    <string name="title_activity_table_layout">TableLayout</string>
+    <string name="Table_layout">Table_layout</string>
+    <string name="Frame_layout">Frame_layout</string>
+    <string name="RelativeLayoutActivity">RelativeLayoutActivity</string>
+    <string name="title_activity_grid_layout">GridLayoutActivity</string>
+    <string name="GridLayout">GridLayout</string>
+    <string name="GridLayout.网格布局">GridLayout.网格布局</string>
+
+</resources>

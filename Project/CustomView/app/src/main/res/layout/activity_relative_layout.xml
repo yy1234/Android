@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Layout.RelativeLayout.RelativeLayoutActivity">
+<!--定义该组件位于父容器中间-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_centerInParent="true"
+        android:id="@+id/view01"
+        />
+    <!--定义view位于上方-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_above="@id/view01"
+        android:layout_alignRight="@id/view01"
+        android:id="@+id/view02"
+        />
+    <!--定义view位于下方-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_below="@id/view01"
+        android:layout_alignLeft="@id/view01"
+        android:id="@+id/view03"
+        />
+    <!--定义view位于左方-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_toLeftOf="@id/view01"
+        android:layout_alignBottom="@id/view01"
+        android:id="@+id/view04"
+        />
+    <!--定义view位于右方-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leaf"
+        android:layout_toRightOf="@id/view01"
+        android:layout_alignTop="@id/view01"
+        android:id="@+id/view05"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Layout.Frame_layout.Frame_layoutActivity">
+
+    <TextView
+        android:layout_width="320pt"
+        android:layout_height="320pt"
+        android:layout_gravity="center"
+        android:background="#f00"
+        android:id="@+id/view01"
+        />
+    <TextView
+        android:layout_width="280pt"
+        android:layout_height="280pt"
+        android:layout_gravity="center"
+        android:background="#0f0"
+        android:id="@+id/view02"
+        />
+    <TextView
+        android:layout_width="240pt"
+        android:layout_height="240pt"
+        android:layout_gravity="center"
+        android:background="#00f"
+        android:id="@+id/view03"
+        />
+    <TextView
+        android:layout_width="200pt"
+        android:layout_height="200pt"
+        android:layout_gravity="center"
+        android:background="#ff0"
+        android:id="@+id/view04"
+        />
+    <TextView
+        android:layout_width="160pt"
+        android:layout_height="160pt"
+        android:layout_gravity="center"
+        android:background="#f0f"
+        android:id="@+id/view05"
+        />
+    <TextView
+        android:layout_width="120pt"
+        android:layout_height="120pt"
+        android:layout_gravity="center"
+        android:background="#0ff"
+        android:id="@+id/view06"
+        />
+
+</FrameLayout>
