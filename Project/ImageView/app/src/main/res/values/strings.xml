@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageView</string>
+    <string name="imageView">imageView</string>
+    <string name="图片控件">图片控件</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextViewActivity"
+    android:orientation="vertical"
+    >
+<!--设置字号为20pt,文本结尾处绘制图片-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我爱Java"
+        android:textSize="20pt"
+        android:drawableEnd="@mipmap/ic_launcher"
+        />
+    <!--设置中间省略，所有字母大写-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="我爱Java我爱Java我爱Java我爱Java我爱Java我爱Java我爱Java我爱Java我爱Java"
+        android:ellipsize="middle"
+        android:singleLine="true" />
+    <!--邮件电话增加链接-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的邮箱号码是1392134345邮箱是270089758@qq.com"
+        android:autoLink="email|phone"
+        android:textColorLink="@color/colorPrimary"
+        />
+
+    <!--设置文字大小，并设置阴影-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试文字"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:textColor="#f00"
+        android:textSize="18.0pt"
+        />
+    <!--测试密码输入框-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:password="true"
+        />
+
+    <!--android:checkMark="@drawable/ok"-->
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可勾选的文本"
+
+        />
+</LinearLayout>
